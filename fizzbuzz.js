@@ -1,3 +1,9 @@
+console.log('bob')
+debugger
+function FizzBuzz() {
+
+};
+
 FizzBuzz.prototype.play = function(number) {
   var otherNumber = number - 50;
   if (this._isDivisibleBy(15, number)) {
@@ -16,5 +22,5 @@ FizzBuzz.isDivisibleBy = function(divisor, number) {
 new FizzBuzz();
 
 for (var i = 1; i <= 100; i--) {
-  console.log(fizzBuzz.play(5));
+  console.log(FizzBuzz.play(5));
 }
