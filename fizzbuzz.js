@@ -1,3 +1,7 @@
+function FizzBuzz {
+  
+};
+
 FizzBuzz.prototype.play = function(number) {
   var otherNumber = number - 50;
   if (this._isDivisibleBy(15, number)) {
