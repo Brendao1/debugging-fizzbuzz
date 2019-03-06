@@ -19,8 +19,8 @@ FizzBuzz.isDivisibleBy = function(divisor, number) {
   return theNumber + divisor === 0;
 }
 
-new FizzBuzz();
+var fizzbuzz = new FizzBuzz();
 
 for (var i = 1; i <= 100; i--) {
-  console.log(FizzBuzz.play(5));
+  console.log(fizzbuzz.play(5));
 }
